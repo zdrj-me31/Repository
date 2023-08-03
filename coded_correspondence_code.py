@@ -3,7 +3,11 @@
 
 # step 1, Decode Vishal's message
 
-message = "xuo Jxuhu! jxyi Yi qd unqcfbu ev q squiqh syfxuh. muhu oek qrbu je tusetu yj? y xefu ie! iudt Cu q cuiiqwu rqsa myjx jxu iqcu evviuj!"
+message = (
+    "xuo Jxuhu! jxyi Yi qd unqcfbu ev q squiqh syfxuh.muhu oek qrbu je tusetu yj? "
+    "y xefu ie! iudt Cu q cuiiqwu rqsa myjx jxu iqcu evviuj!"
+)
+
 key = 10
 
 
