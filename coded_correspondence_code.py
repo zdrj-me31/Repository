@@ -103,7 +103,10 @@ print("-----------------------------------------------\n", decoded_second)
 
 # step 4, solving a ceasar cipher without knowing the shift value
 
-message_1 = "vhfinmxkl atox kxgwxkxw tee hy maxlx hew vbiaxkl tl hulhexmx. px'ee atox mh kxteer lmxi ni hnk ztfx by px ptgm mh dxxi hnk fxlltzxl ltyx."
+message_1 = (
+    "vhfinmxkl atox kxgwxkxw tee hy maxlx hew vbiaxkl tl hulhexmx."
+    "px'ee atox mh kxteer lmxi ni hnk ztfx by px ptgm mh dxxi hnk fxlltzxl ltyx."
+)
 
 
 def brute_force(message, offset=50):
