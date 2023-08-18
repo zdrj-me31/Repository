@@ -1,0 +1,30 @@
+1. As for example people interesed in movies, on specific date and within certain hour viewed page x times on device ....
+
+Specific dates - 2022 year month to month, day to day, quarter to quarter
+Certain hours - from which our to which
+
+a) number of people which interesed in books and literature
+- In 2022 People interesed in books & literature viewed page x times on device.
+- which device was used the most ?
+- WHat is the average number of views per day for those people?
+- What is the average number of views per hour for those people?
+- Same questions but using different devices, per windows, phone
+
+ you have a large amount of data and using plt.plot directly becomes cumbersome or slow, you can consider using downsampling or aggregation techniques to make the plot more manageable and visually informative. Here are a few approaches you can consider:
+
+Downsampling: Instead of plotting every data point, you can downsample your data by aggregating it into larger time intervals. For example, if you have hourly data, you can aggregate it into daily or weekly intervals before plotting.
+
+Aggregation: Calculate summary statistics (e.g., mean, median, sum) for your data within specific time intervals and plot the aggregated values. This can provide a clearer overview of trends without overwhelming the plot with individual data points.
+
+Interactive Plotting: Consider using interactive plotting libraries like Plotly or Bokeh. These libraries allow you to create interactive plots that can handle large datasets better by providing features like zooming and panning.
+
+Time Series Plotting Libraries: Use specialized time series plotting libraries like seaborn's lineplot or pandas built-in plotting functions, which are optimized for handling time series data.
+
+Subsampling: If you still want to plot a subset of your data, you can use techniques like random subsampling to select a representative subset of data points for plotting.
+
+Data Preprocessing: If you have irregularly spaced time intervals, consider resampling or interpolating the data to a regular frequency before plotting.
+
+Aggregated Plots: Create aggregated plots, such as box plots, violin plots, or bar plots, which can provide insights into the distribution and summary statistics of your data.
+
+Dashboarding: If your goal is to provide an overview of large datasets, consider creating interactive dashboards using libraries like Plotly Dash or Streamlit.
+
